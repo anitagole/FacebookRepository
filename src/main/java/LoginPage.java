@@ -1,6 +1,8 @@
 import java.time.Duration;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 
 public class LoginPage {
@@ -19,6 +21,13 @@ public class LoginPage {
 		
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(30));
 		
+		// firstname and lastname test cases
+		
+		WebElement wb1 = driver.findElement(By.name("firstname"));
+		wb1.sendKeys("anita");
+		
+        WebElement wb2 = driver.findElement(By.name("lastname"));
+		wb2.sendKeys("gole");
 		
 		
 		
