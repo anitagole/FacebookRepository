@@ -41,6 +41,10 @@ public class LoginPage {
 		
 		System.out.println("23-09-1995");
 		
+		//gender test cases
+	   
+		System.out.println("female");
+		
 		
 		
 		
