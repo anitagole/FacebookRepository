@@ -37,6 +37,10 @@ public class LoginPage {
         WebElement wb4 = driver.findElement(By.name("reg_passwd__"));
 		wb4.sendKeys("123456");
 		
+		// date of birth test cases
+		
+		System.out.println("23-09-1995");
+		
 		
 		
 		
