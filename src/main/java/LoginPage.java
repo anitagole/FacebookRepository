@@ -29,6 +29,14 @@ public class LoginPage {
         WebElement wb2 = driver.findElement(By.name("lastname"));
 		wb2.sendKeys("gole");
 		
+		//email id and password test cases
+		
+		WebElement wb3 = driver.findElement(By.name("reg_email__"));
+		wb3.sendKeys("anita@gmail.com");
+		
+        WebElement wb4 = driver.findElement(By.name("reg_passwd__"));
+		wb4.sendKeys("123456");
+		
 		
 		
 		
